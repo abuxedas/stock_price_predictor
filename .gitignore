@@ -17,6 +17,7 @@ venv.bak/
 .env          # tu archivo de configuración local (variables sensibles)
 .envrc
 
+
 # ========================
 # Jupyter / IPython
 # ========================
