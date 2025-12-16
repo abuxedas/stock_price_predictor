@@ -1,0 +1,86 @@
+# ========================
+# Python bytecode / cache
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ========================
+# Virtual environments
+# ========================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.env          # tu archivo de configuración local (variables sensibles)
+.envrc
+
+# ========================
+# Jupyter / IPython
+# ========================
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ========================
+# Data files
+# ========================
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.parquet
+
+# ========================
+# Model outputs / logs
+# ========================
+models/
+outputs/
+logs/               # logs de modelos y scripts
+airflow/logs/       # logs específicos de Airflow
+
+# ========================
+# Airflow specific
+# ========================
+airflow.db
+*.cfg
+
+# ========================
+# IDEs
+# ========================
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+
+# ========================
+# Type checkers / linters
+# ========================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ========================
+# Build / packaging / distribution
+# ========================
+build/
+dist/
+*.egg
+*.egg-info/
+*.whl
+*.manifest
+*.spec
+.Python
+.installed.cfg
+MANIFEST
+
+# ========================
+# Misc / system
+# ========================
+.DS_Store
